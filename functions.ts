@@ -113,7 +113,7 @@ export class Functions {
 
       stringTaskList.forEach(stringTask =>
         seperatedStringTaskList.push(
-          parseInt(stringTask.substring(0, 1)),
+          parseInt(stringTask.substring(0, 2)),
           stringTask.substring(6, 7),
           stringTask.substring(
             9,
@@ -442,7 +442,7 @@ export class Functions {
   Medium(args: string[]) {
     let newTask: Task;
     if (args[1]) {
-      newTask = new Task(9, true, "easy3.6");
+      newTask = new Task(9, true, "medium");
       var num = parseInt(args[1]);
       var i: number, j: number, count: number;
       var prime = "";

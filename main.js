@@ -7,7 +7,7 @@ var functionsObj = new functions_1.Functions();
 if (args.length == 0) {
     functionsObj.printInformations();
 }
-else if (args[0] == "l") {
+else if (args[0] == "-l") {
     functionsObj.printTasks(args);
 }
 else if (args[0] == "-a") {

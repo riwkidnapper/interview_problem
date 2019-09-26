@@ -101,7 +101,7 @@ var Functions = /** @class */ (function () {
                 .split("\n");
             var seperatedStringTaskList_1 = [];
             stringTaskList.forEach(function (stringTask) {
-                return seperatedStringTaskList_1.push(parseInt(stringTask.substring(0, 1)), stringTask.substring(6, 7), stringTask.substring(9, stringTask.lastIndexOf("\r") != -1
+                return seperatedStringTaskList_1.push(parseInt(stringTask.substring(0, 2)), stringTask.substring(6, 7), stringTask.substring(9, stringTask.lastIndexOf("\r") != -1
                     ? stringTask.lastIndexOf(stringTask.slice(-1))
                     : stringTask.lastIndexOf(stringTask.substr(stringTask.length))));
             });
@@ -399,7 +399,7 @@ var Functions = /** @class */ (function () {
     Functions.prototype.Medium = function (args) {
         var newTask;
         if (args[1]) {
-            newTask = new task_1.Task(9, true, "easy3.6");
+            newTask = new task_1.Task(9, true, "medium");
             var num = parseInt(args[1]);
             var i, j, count;
             var prime = "";

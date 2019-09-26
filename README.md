@@ -1,5 +1,6 @@
 ==================================================================  
 Interview Problem
+==================================================================
 
 # Command Line Todo
 
@@ -13,10 +14,8 @@ run
 
    Command line arguments:
 
-l : Lists all the tasks
+ -l  :   Lists all the tasks
 
--a : Adds a new task
-
--r : Removes a task
-
--c : Completes a task
+ -a [taskname] :   Adds a new task
+ 
+ -r [number of task]  :   Removes a task
