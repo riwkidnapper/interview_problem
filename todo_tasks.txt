@@ -1,0 +1,9 @@
+1 -  [ ] easy1
+2 -  [ ] easy2
+3 -  [ ] easy3.1
+4 -  [ ] easy3.2
+5 -  [ ] easy3.3
+6 -  [ ] easy3.4
+7 -  [ ] easy3.5
+8 -  [ ] easy3.6
+9 -  [ ] medium

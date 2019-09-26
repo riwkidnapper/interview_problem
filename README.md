@@ -1,6 +1,5 @@
 ==================================================================  
 Interview Problem
-==================================================================
 
 # Command Line Todo
 
@@ -13,7 +12,6 @@ run
 3. node main.js + [Command line arguments]
 
    Command line arguments:
-
 
 l : Lists all the tasks
 
