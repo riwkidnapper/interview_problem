@@ -6,7 +6,7 @@ Interview Problem
 
 run
 
-1. npm i @types/node
+1. npm i
 
 2. tsc main.ts
 

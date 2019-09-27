@@ -9,7 +9,7 @@
 Command Line Todo  
 ================================================================= 
 run 
-1. npm i @types/node
+1. npm i --save
 2. tsc main.ts
 3. node main.js + [Command line arguments]
 

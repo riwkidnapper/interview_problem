@@ -443,6 +443,7 @@ export class Functions {
     let newTask: Task;
     if (args[1]) {
       newTask = new Task(9, true, "medium");
+      console.log(`NEW TASK ADDED: ${newTask.toString()}`);
       var num = parseInt(args[1]);
       var i: number, j: number, count: number;
       var prime = "";
